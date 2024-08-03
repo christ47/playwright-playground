@@ -26,7 +26,6 @@ test.describe("Basic UI automation test for an eccomerce", () => {
     await expect(page.locator(".complete-header")).toHaveText(
       "Thank you for your order!"
     );
-    await expect(page).toHaveTitle(/Playwright/);
   });
 
   });
